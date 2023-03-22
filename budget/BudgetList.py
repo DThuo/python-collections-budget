@@ -19,6 +19,7 @@ def append (self, item):
         self.expenses.append (item)
         self.sum_expenses += item
     else:
+        
         self.overages.append(item)
         self.sum_overages += item
 
