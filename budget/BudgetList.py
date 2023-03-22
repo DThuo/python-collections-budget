@@ -1,5 +1,5 @@
 import Expense 
-from matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 
 #Create the BudgetList class and constructor
@@ -19,8 +19,8 @@ def append (self, item):
         self.expenses.append(item)
         self.sum_expenses += item
     else:
-        self.overanges.append(item)
-        self.sum_overanges += item
+        self.overages.append(item)
+        self.sum_overages += item
 
 #Define the __len__() method  
 def __len__(self):
