@@ -24,7 +24,7 @@ def append (self, item):
 
 #Define the __len__() method  
 def __len__(self):
-    return self.expenses.__len__ + self.overanges.__len__
+    return self.expenses.__len__ + self.overages.__len__
 
 
 #Create and Finish the __iter__() method
